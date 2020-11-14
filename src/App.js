@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -12,11 +12,13 @@ class App extends Component {
             first='Craig'
             last='West'
           ></my-component>
+          <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
+          <iws-test app='using iwswordpress-test'></iws-test>
           <app-home
             style={{ color: 'green' }}
             app='UsefulServices.co.uk'
           ></app-home>
-          <img src={logo} className='App-logo' alt='logo' />
+          {/* <img src={logo} className='App-logo' alt='logo' /> */}
         </header>
       </div>
     );
