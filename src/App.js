@@ -16,7 +16,8 @@ class App extends Component {
             style={{ color: 'green' }}
             app='UsefulServices.co.uk'
           ></app-home>
-          <img src={logo} className='App-logo' alt='logo' />
+          <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
+          {/* <img src={logo} className='App-logo' alt='logo' /> */}
         </header>
       </div>
     );
