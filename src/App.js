@@ -17,6 +17,7 @@ class App extends Component {
             app='UsefulServices.co.uk'
           ></app-home>
           <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
+          <iws-test app='TEST APP'></iws-test>
           {/* <img src={logo} className='App-logo' alt='logo' /> */}
         </header>
       </div>
