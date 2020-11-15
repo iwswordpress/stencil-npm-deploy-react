@@ -1,25 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <header className='App-header'>
-          <my-component
-            style={{ color: 'red' }}
-            first='Craig'
-            last='West'
-          ></my-component>
-          <app-home
-            style={{ color: 'green' }}
-            app='UsefulServices.co.uk'
-          ></app-home>
-          <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
-          <iws-test app='TEST APP'></iws-test>
-          {/* <img src={logo} className='App-logo' alt='logo' /> */}
-        </header>
+        <div className='container'>
+          <div className='info'>
+            <h3>Project: Web Components from NPM in React</h3>
+            <p>
+              This is a React project that uses 4 Web Components that are
+              imported from an NPM package.
+            </p>
+          </div>
+          <div>
+            <my-component
+              style={{ color: 'red', marginBottom: '20px' }}
+              first='Component 1:'
+              last='Craig West'
+            ></my-component>
+            <app-home
+              style={{ color: 'green' }}
+              app='Component 2 : UsefulServices.co.uk'
+            ></app-home>
+            <div className='component'>
+              <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
+            </div>
+            <iws-test
+              app=' - Component 4'
+              style={{ color: 'purple' }}
+            ></iws-test>
+          </div>
+        </div>
       </div>
     );
   }
