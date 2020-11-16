@@ -24,8 +24,13 @@ class App extends Component {
               style={{ color: 'green' }}
               app='Component 2 : UsefulServices.co.uk'
             ></app-home>
-            <div className='component'>
-              <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
+            <div style={{ display: 'flex' }}>
+              <div className='component'>
+                <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
+              </div>
+              <div className='component' v>
+                <uc-stock-finder></uc-stock-finder>
+              </div>
             </div>
             <iws-test
               app=' - Component 4'
