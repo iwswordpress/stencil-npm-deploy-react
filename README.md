@@ -4,6 +4,9 @@
 
 ## Demo video https://youtu.be/Gc1kAnpUIGs
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 Using the Web Components from an NPM package built with the repo stencil-npm-depoy, https://github.com/iwswordpress/stencil-npm-deploy, this React App has four Custom HTML tags, one of which is used to get stock prices from an API.
 
 The App.js has four custom html elements and two are just boilerplate text but there are two components that can work on their own but also interact with eachother.
