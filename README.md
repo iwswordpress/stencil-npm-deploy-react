@@ -4,8 +4,8 @@
 
 ## Demo video https://youtu.be/Gc1kAnpUIGs
 
-![GitHub Logo](https://49plus.co.uk/github-images/stencil-npm-react.png)
-Format: ![Stencil-NPM-React](url)
+![Stencil-NPM-React](https://49plus.co.uk/github-images/stencil-npm-react.png)
+
 
 Using the Web Components from an NPM package built with the repo stencil-npm-depoy, https://github.com/iwswordpress/stencil-npm-deploy, this React App has four Custom HTML tags, one of which is used to get stock prices from an API.
 
