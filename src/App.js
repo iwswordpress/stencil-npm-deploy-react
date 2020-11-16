@@ -24,7 +24,7 @@ class App extends Component {
               style={{ color: 'green' }}
               app='Component 2 : UsefulServices.co.uk'
             ></app-home>
-            <div style={{ display: 'flex' }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
               <div className='component'>
                 <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
               </div>
