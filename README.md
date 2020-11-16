@@ -2,7 +2,9 @@
 
 # React App using Web Components from NPM package
 
-## Demo video https://youtu.be/Gc1kAnpUIGs
+## Live netlify demo https://stencil-npm-react.netlify.app/
+
+## Demo explainer video https://youtu.be/Gc1kAnpUIGs
 
 ![Stencil-NPM-React](https://49plus.co.uk/github-images/stencil-npm-react.png)
 
