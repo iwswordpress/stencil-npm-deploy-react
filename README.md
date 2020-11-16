@@ -1,8 +1,8 @@
 
 
-## React App using Web Components from NPM package
+# React App using Web Components from NPM package
 
-# Demo video https://youtu.be/Gc1kAnpUIGs
+## Demo video https://youtu.be/Gc1kAnpUIGs
 
 Using the Web Components from an NPM package built with the repo stencil-npm-depoy, https://github.com/iwswordpress/stencil-npm-deploy, this React App has four Custom HTML tags, one of which is used to get stock prices from an API.
 
