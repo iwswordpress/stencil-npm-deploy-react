@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // import web components
+//import { defineCustomElements } from 'iwswordpress-hello/loader';
 import { defineCustomElements } from 'iwswordpress-web/loader';
 
 ReactDOM.render(<App />, document.getElementById('root'));

@@ -13,6 +13,12 @@ class App extends Component {
               This is a React project that uses 4 Web Components that are
               imported from an NPM package.
             </p>
+            <p>If you know stock symbol, use in stock price finder.</p>
+            <p>
+              If you want to find stock price for a company, use lower box,
+              enter company name and a list of options will be given. Select
+              symbol and this will populate and fire top component.
+            </p>
           </div>
           <div>
             <my-component
@@ -26,7 +32,7 @@ class App extends Component {
             ></app-home>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
               <div className='component'>
-                <uc-stock-price stock-symbol='AAPL'></uc-stock-price>
+                <uc-stock-price stock-symbol='ORCL'></uc-stock-price>
               </div>
               <div className='component' v>
                 <uc-stock-finder></uc-stock-finder>
